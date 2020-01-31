@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* START ROW - 1 */
+#row1 {
+	height: 109px;
+	background: #ddc4ff;
+	font-weight: bold;
+}
+.logo{}
+.logo img {
+	height: 70px;
+	margin-top: 18px;
+	margin-left: 17px;
+	width: 150px;
+}
+/* START ROW - 2 */
+#row2{}
+.navbar {
+	
+	margin-bottom: 0px;
+	
+}
+/* START ROW - 3 */
+#row3 {
+	height: 439px;
+	background: #E2FFD7;
+}
+/* START ROW - 4 */
+
+#row4 {
+	height: 330px;
+	background: #99CB91 none repeat scroll 0% 0%;
+	width: 100%;
+	
+}
+.overview{}
+.title{}
+.title h1 {
+	padding-top: 10px;
+	color: #fff;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 5px double #fff;
+}
+.para{}
+.para p {
+	text-align: justify;
+	line-height: 28px;
+	margin-bottom: 14px;
+}
+.custombt {
+	padding: 10px;
+	margin-top: -3px;
+	margin-left: 500px;
+}
+#row5 {
+	height: 510px;
+	background: #ddddd1;
+}
+.service{}
+.service h1{
+    padding-top: 10px;
+	color: #fff;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 5px double #fff;
+}
+.service p{
+    text-align: justify;
+	line-height: 28px;
+	margin-bottom: 14px;
+}
+.partall{}
+.part {
+	height: 225px;
+	width: 100%;
+	position: relative;
+    overflow: hidden;
+}
+.part img {
+	height: 100%;
+	width: 100%;
+    position: absolute;
+}
+.overlay{
+    height: 100%;
+	width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top: -100%;
+}
+.overlay h3{}
+.part:hover .overlay{
+    top: 0;
+    transition: 2s;
+}
+.title_over{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 35%;
+    bottom: -100%;
+    transition: 2s;
+}
+.part:hover .title_over{
+    bottom: -40%;
+}
+.part h3{}
+/* START ROW - 1 */
+#row6 {
+	height: 300px;
+	background: black;
+}
